@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd ~/tonos-cli
+cd ~/main.ton.dev/tonos-cli/target/release
 
 for i in {1..x};
 each_msg=$(cat ~/ton-keys/${1}.confirm.msg | awk "FNR == ${i}")
