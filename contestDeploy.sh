@@ -2,7 +2,7 @@
 
 cd ~/main.ton.dev/tonos-cli/target/release
 
-for i in {8..8};
+for i in {1..X};
 do
 pubkey=$(echo 0x$(cat ~/ton-keys/"${1}_${i}.keys.json" | grep 'public' | awk '{print $2}' | tr -d '"'\,))
 signs=(~/ton-keys/"${1}_${i}.keys.json")
