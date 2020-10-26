@@ -1,6 +1,5 @@
 #!/bin/bash
 
-cd ~/main.ton.dev/tonos-cli/target/release
 rm ~/ton-keys/${1}.amount.csv
 
 for i in {1..x};
